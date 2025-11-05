@@ -1,74 +1,57 @@
 /*body styling*/
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(90deg, #010626, #2481A6);
+    font-family: 'Times New Roman', Times, serif !important;
+    background: linear-gradient(90deg, #010626, #2481A6) !important;
     /*Gradient*/
-    color: #fff;
+    color: #fff !important;
     /*White text*/
-    margin: 0;
+    margin: 0 !important;
 }
 
 /*header styling*/
 header {
-    font-family: 'Times New Roman', Times, serif;
-    background: #031220;
-    color: #F2AC29;
-    text-align: center;
-    /*center aligns text*/
-    padding: 15px;
-    /*spacing inside header*/
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #F2AC29 !important;
 }
 
-/*footer styling*/
-footer {
-    font-family: 'Times New Roman', Times, serif;
-    background: #031220;
-    color: #F2AC29;
-    text-align: center;
-    position: fixed;
-    /*Keeps footer visible at bottom of page*/
-    /*used code from w3schools to make footer stay at the bottom (remember to reference in readme*/
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
-
-/*navigation bar styling*/
-nav {
-    text-align: center;
-}
 
 /*navigation links styling*/
 nav a {
-    font-family: 'Times New Roman', Times, serif;
-    color: #F2AC29;
-    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #F2AC29 !important;
+    font-size: 18px !important;
 }
 
 
 /*article styling*/
 article {
-    font-family: 'Times New Roman', Times, serif;
-    color: #F2AC29;
-    padding-left: 20px;
-    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif !important;
+    padding-left: 20px !important;
+    padding-bottom: 30px !important;
+    color:#fff !important;
     /*spacing for top and bottom*/
-    font-size: 20px;
+    font-size: 20px !important;
+}
+
+/*Styling on Image classes*/
+.image1 {
+    max-width: 550px !important;
+    height: auto !important;
 }
 
 /*circular image*/
 .image2 {
-    border-radius: 50%;
+    border-radius: 50% !important;
     /*makes image circular*/
-    max-width: 100px;
-    height: auto;
+    max-width: 100px !important;
+    height: auto !important;
 }
+
 
 /*video styling*/
 video {
-    width: auto;
-    height: 300px
+    width: auto !important;
+    height: 300px !important;
 }
 
 /*color scheme:
